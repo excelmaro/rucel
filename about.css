@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: goldenrod;
+    min-height: 100%;
+    
+}
+
+.Top{
+   
+    width: 100%;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.bottom{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background1.jpg);
+    height: 45%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 55%;
+
+}
+
+.bottom h3{
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-40%, -35%);
+}
+ h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+hr{
+    size: 3;
+    color: red;
+    
+}
+
+.bottom h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+ul li{
+    display: inline-block ;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.7s ;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: blue;
+}
+ul li.active a{
+    background-color: white;
+    color: rgb(89, 0, 255);
+}
+ h2{
+    font-family: cochin;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+ h3{
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+@media screen and (max-width:500px){
+    ul{
+        float: right;
+        list-style: none;
+        margin-top: 4%;
+        margin-right: 2%;
+    
+    }
+    ul li{
+        display: inline-block ;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        padding: 2px 5px;
+        border: 1px solid transparent;
+        transition: 0.7s ;
+    }
+
+    .bottom h1{
+        text-transform: uppercase;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+     h2{
+        font-family: cochin;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        color: red;
+    }
+    h3{
+        font-size: 12px;
+        padding: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        line-height: 18px;
+    
+    }
+
+    .bottom h3{
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-40%, -35%);
+    }
+    .thin h3{
+        font-size: 15px;
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+        color: whitesmoke;
+    }
+    .bottom{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background1.jpg);
+        min-height: 45%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        top: 55%;
+    
+    }
+}
